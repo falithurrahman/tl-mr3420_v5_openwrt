@@ -16,5 +16,5 @@ If you're using windows, go to Control Panel\Network and Internet\Network and Sh
 * Connect PC with one of LAN ports available on router using LAN cable.
 * Press the reset button on the router, power up the router and keep button pressed for around 6-7 seconds, until device starts downloading the file.
 * Router will automatically download file from server, write it to flash and reboot.
-* Wait for a few minutes, configure ethernet static IP on your computer to '192.168.1.225'.
+* Wait for a few minutes, configure ethernet static IP on your computer to '192.168.1.225'. If you still confused how to configure ethernet static IP, please refer to step 3.
 * Type '192.168.1.1' on your web browser. Congratulations, you've successfully flash openWRT firmware to your router.
