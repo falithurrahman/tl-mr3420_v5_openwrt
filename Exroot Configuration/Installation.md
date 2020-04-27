@@ -41,3 +41,8 @@ LuCI → System → Software should show free space of overlay partition. <br>
 >sed -i -r -e "s/^(lists_dir\sext\s).*/\1\/usr\/lib\/opkg\/lists/" /etc/opkg.conf <br>
 opkg update <br>
 * Congratulations, now we have finished configuring exroot in our router. We have extra space to install any software we need in this router.
+
+#### Reference
+* OpenWRT Extroot configuration <br>
+Since we are using TL MR3420 v5, just jump into instruction for devices ≥ 8 MiB flash. <br>
+https://openwrt.org/docs/guide-user/additional-software/extroot_configuration
