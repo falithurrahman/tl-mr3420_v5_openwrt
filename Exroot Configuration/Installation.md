@@ -7,6 +7,9 @@ https://www.putty.org/
 
 #### Installation steps
 * Make sure we are connected to openWRT router, whether it's through LAN or WiFi.
+* Open Putty, and connect to our openWRT IP address at 192.168.1.1.
+* These devices should have enough space to install the packages we need. So i recommend a fresh start. Remove all packages we've installed to add functionality, as those only wasting space now. After we make the extroot, we will have all space you need. From the command line interface on putty write (on a single line). This installs packages needed for a partition with ext4 filesystem.<br>
+> opkg update && opkg install block-mount kmod-fs-ext4 kmod-usb-storage e2fsprogs kmod-usb-ohci kmod-usb-uhci fdisk <br>
 * Configure /etc/config/fstab to mount the rootfs_data in another directory in case we need to access the original root overlay to change our extroot settings. It can be done by typing command below in putty.
 >DEVICE="$(awk -e '/\s\/overlay\s/{print $1}' /etc/mtab)" <br>
 >uci -q delete fstab.rwm <br>
