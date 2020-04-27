@@ -18,3 +18,7 @@ If you're using windows, go to Control Panel\Network and Internet\Network and Sh
 * Router will automatically download file from server, write it to flash and reboot.
 * Wait for a few minutes, configure ethernet static IP on your computer to '192.168.1.225'. If you still confused how to configure ethernet static IP, please refer to step 3.
 * Type '192.168.1.1' on your web browser. Congratulations, you've successfully flash openWRT firmware to your router.
+
+#### Reference
+* TL MR3420 v5 page <br>
+https://openwrt.org/toh/tp-link/tp-link_tl-mr3420_v5
