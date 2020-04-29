@@ -17,3 +17,7 @@ This repository contains configuration on my TPLink MR3420 v5 router. In this re
 | CPU (MHz) | 580|
 | Flash (MB) | 8 |
 | RAM (MB) | 64 |
+
+### Reference
+* TL MR3420 v5 openWRT <br>
+https://openwrt.org/toh/tp-link/tp-link_tl-mr3420_v5
