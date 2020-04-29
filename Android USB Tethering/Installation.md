@@ -39,3 +39,10 @@ If it does not, write command below in putty
     ifup TetheringWAN
     ```
     or restart it with the buttons you find in the Interface page of LuCi Web interface.
+
+Notes:
+* Since this android usb tethering method will create their own NATted IP subnet, it is important that OpenWRT's local IP range is different from the 4G android usb tethering IP range. In my case with android usb tethering, the default range is 192.168.42.137, which doesn't clashes with OpenWRT's default. It's still safe to use openWRT default on 192.168.1.1. But if the IP range clashes with openWRT default, OpenWRT's LAN IP should be changed to something else, such as:
+    ```
+    config interface 'lan'
+        option ipaddr '10.10.10.1'
+    ```
