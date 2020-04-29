@@ -5,3 +5,15 @@ This repository contains configuration on my TPLink MR3420 v5 router. In this re
 * OpenWRT installation on TPLink MR3420v5
 * Android USB Tethering
 * Exroot Configuration
+
+### Device Specification
+|   |   |
+| --- | ----------- |
+| Brand | TP-Link |
+| Model | 	TL-MR3420 |
+| Version |  v5 |
+| Device Type | WiFi Router |
+| Bootloader | 	U-Boot |
+| CPU (MHz) | 580|
+| Flash (MB) | 8 |
+| RAM (MB) | 64 |
