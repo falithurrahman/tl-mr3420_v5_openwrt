@@ -46,3 +46,11 @@ Notes:
     config interface 'lan'
         option ipaddr '10.10.10.1'
     ```
+
+#### Reference
+* USB tethering openWRT page <br>
+https://openwrt.org/docs/guide-user/network/wan/smartphone.usb.tethering
+* RNDIS USB Dongle for WAN connection <br>
+https://openwrt.org/docs/guide-user/network/wan/wwan/ethernetoverusb_rndis
+* 3g/UMTS USB Dongle for WAN connection <br>
+https://openwrt.org/docs/guide-user/network/wan/wwan/3gdongle
