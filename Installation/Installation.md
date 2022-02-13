@@ -4,8 +4,10 @@ This folder contains step-by-step tutorial installing openWRT on TP Link MR4320 
 #### Software Needed
 * TFTP Server <br>
 https://tftpd64.software.informer.com/
-* OpenWRT Firmware for TL MR4320 V5<br>
-http://downloads.openwrt.org/releases/19.07.2/targets/ramips/mt76x8/openwrt-19.07.2-ramips-mt76x8-tplink_tl-mr3420-v5-squashfs-tftp-recovery.bin
+* OpenWRT Firmware for TL MR4320 V5 <br>
+https://downloads.openwrt.org/releases/21.02.1/targets/ramips/mt76x8/openwrt-21.02.1-ramips-mt76x8-tplink_tl-mr3420-v5-squashfs-tftp-recovery.bin
+* Firmware selector <br>
+https://firmware-selector.openwrt.org/
 
 #### Installation Steps
 * Download and install TFTP Server with link i provide above.
@@ -16,9 +18,15 @@ If you're using windows, go to Control Panel\Network and Internet\Network and Sh
 * Connect PC with one of LAN ports available on router using LAN cable.
 * Press the reset button on the router, power up the router and keep button pressed for around 6-7 seconds, until device starts downloading the file.
 * Router will automatically download file from server, write it to flash and reboot.
-* Wait for a few minutes, configure ethernet static IP on your computer to '192.168.1.225'. If you still confused how to configure ethernet static IP, please refer to step 3.
+* Set up automatic assignment of an IP address on your network adapter (same place as in step 3)
 * Type '192.168.1.1' on your web browser. Congratulations, you've successfully flash openWRT firmware to your router.
 
 #### Reference
 * TL MR3420 v5 page <br>
-https://openwrt.org/toh/tp-link/tp-link_tl-mr3420_v5
+https://openwrt.org/toh/hwdata/tp-link/tp-link_tl-mr3420_v5
+
+* Video tutorial <br>
+https://www.youtube.com/watch?v=Jx_zN7DzDAU
+
+* Commmit which add support for TP-Link TL-MR3420 v5 <br>
+https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=39e9bfb18199b046bd3b613002112e4e6dd53658
